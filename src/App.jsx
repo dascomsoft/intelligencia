@@ -1,10 +1,8 @@
 // src/App.jsx
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
 import Home from "./pages/Home";
 import Formations from "./pages/Formations";
 import Immigration from "./pages/Immigration";
@@ -12,6 +10,7 @@ import Annonces from "./pages/Annonces";
 import Calendrier from "./pages/Calendrier";
 import Examens from "./pages/Examens";
 import Contact from "./pages/Contact";
+import IntelliBot from "./components/IntelliBot";
 
 function App() {
   return (
@@ -29,6 +28,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
+        <IntelliBot />
         <Footer />
       </div>
     </Router>

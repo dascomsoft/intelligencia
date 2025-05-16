@@ -117,8 +117,8 @@ const Annonces = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-8">
-      <h1 className="text-3xl font-bold text-center mb-6">Annonces du Centre Intelligencia</h1>
+    <div className="container mx-auto py-[5rem]">
+      <h1 className="text-xl font-bold text-center mb-6">Annonces du Centre Intelligencia</h1>
 
       {loading ? (
         <p className="text-center">Chargement des annonces...</p>
@@ -129,9 +129,9 @@ const Annonces = () => {
               key={index}
               className="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition"
             >
-              <h2 className="text-xl font-bold mb-2">{annonce[0]}</h2>
+              <h2 className="font-bold mb-2">{annonce[0]}</h2>
               <p className="text-gray-700 mb-2">{annonce[1]}</p>
-              {annonce[2] && <p className="text-sm text-gray-500">📅 {annonce[2]}</p>}
+              {annonce[2] && <p className=" text-gray-500">📅 {annonce[2]}</p>}
          
             </div>
           ))}

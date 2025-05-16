@@ -29,10 +29,10 @@ export default function Immigration() {
         }}
       >
         <div className="container px-6 mx-auto">
-          <h1 className="text-4xl md:text-4xl font-bold mb-6">
+          <h1 className="text-xl md:text-3xl font-bold mb-6">
             🌍 Réalisez votre rêve d’immigrer avec Intelligencia
           </h1>
-          <p className="text-xl md:text-xl mb-8 max-w-3xl">
+          <p className="text-lg mb-8 max-w-3xl">
             Que ce soit pour les études, le travail ou un projet de vie à l’étranger, notre équipe vous accompagne de A à Z.
           </p>
           <a
@@ -47,8 +47,8 @@ export default function Immigration() {
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div data-aos="zoom-in-left" data-aos-delay="100">
-            <h2 className="text-3xl font-bold text-indigo-800 mb-4">Pourquoi nous faire confiace ?</h2>
-            <ul className="space-y-3 text-lg">
+            <h2 className="text-xl font-bold text-indigo-800 mb-4">Pourquoi nous faire confiace ?</h2>
+            <ul className="space-y-3">
               <li>✅ Dossiers traités avec soin et rigueur</li>
               <li>✅ Accompagnement pour la prise de rendez-vous à l’ambassade</li>
               <li>✅ Préparation aux entretiens d’ambassade</li>
@@ -65,28 +65,28 @@ export default function Immigration() {
 
       <section id="procedure" className="py-20 px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-indigo-800 mb-12">
+          <h2 className="text-2xl font-bold text-center text-indigo-800 mb-12">
             ✈️ Étapes de la procédure d’immigration avec Intelligencia
           </h2>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div className="shadow-xl p-4" data-aos="zoom-in-right" data-aos-delay="100">
               <span className="text-4xl">📄</span>
-              <h3 className="font-semibold text-xl my-3">1. Évaluation du dossier</h3>
+              <h3 className="font-semibold text-lg my-3">1. Évaluation du dossier</h3>
               <p>Analyse complète de votre profil, objectifs, et pays ciblé.</p>
             </div>
             <div className="shadow-xl p-4" data-aos="zoom-in-right" data-aos-delay="200">
               <span className="shadow-xl p-4">🎓</span>
-              <h3 className="font-semibold text-xl my-3">2. Formation & Examens</h3>
+              <h3 className="font-semibold text-lg my-3">2. Formation & Examens</h3>
               <p>Cours de langues, coaching personnalisé, préparation au B1, IELTS, etc.</p>
             </div>
             <div className="shadow-xl p-4" data-aos="zoom-in-right" data-aos-delay="300">
               <span className="text-4xl">📝</span>
-              <h3 className="font-semibold text-xl my-3">3. Dossier & Ambassade</h3>
+              <h3 className="font-semibold text-lg my-3">3. Dossier & Ambassade</h3>
               <p>Constitution et dépôt du dossier, préparation à l’entretien.</p>
             </div>
             <div className="shadow-xl p-4" data-aos="zoom-in-right" data-aos-delay="400">
               <span className="text-4xl">✅</span>
-              <h3 className="font-semibold text-xl my-3">4. Visa & Départ</h3>
+              <h3 className="font-semibold text-lg my-3">4. Visa & Départ</h3>
               <p>Suivi du visa et conseils pratiques avant le départ.</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Immigration() {
 
       <section className="py-20 px-6 bg-gray-100">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-indigo-800 mb-12">🎉 Ils ont réussi avec Intelligencia</h2>
+          <h2 className="text-2xl font-bold text-indigo-800 mb-12">🎉 Ils ont réussi avec Intelligencia</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow" data-aos="zoom-in-right" data-aos-delay="100">
               <p>🇩🇪 “Grâce à Intelligencia, j’ai obtenu mon visa pour l’Allemagne après ma formation B1 ! Merci pour l’accompagnement de qualité.”</p>
@@ -122,8 +122,8 @@ export default function Immigration() {
         }}
       >
         <div className="container px-6 mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-green-400">📞 Parlez à un expert dès maintenant</h2>
-          <p className="text-lg md:text-xl mb-8">
+          <h2 className="text-xl md:text-3xl font-bold mb-6 text-green-400">📞 Parlez à un expert dès maintenant</h2>
+          <p className="mb-8">
             Vous êtes prêt à lancer votre projet d’immigration ? Cliquez ci-dessous pour discuter avec notre conseiller sur WhatsApp.
           </p>
 
@@ -136,7 +136,7 @@ export default function Immigration() {
             📲 Discuter sur WhatsApp
           </a>
 
-          <div className="text-white text-base md:text-lg space-y-4">
+          <div className="text-white space-y-4">
             <p>
               💬 Notre équipe vous répond rapidement du <strong>lundi au samedi, de 8h à 18h</strong>.
             </p>
@@ -153,9 +153,6 @@ export default function Immigration() {
           </div>
         </div>
       </section>
-
-
-
     </section>
   );
 }

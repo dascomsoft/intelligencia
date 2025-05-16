@@ -1,35 +1,3 @@
-// import React from "react";
-
-// export default function Footer() {
-//     return (
-//       <footer className="bg-slate-900 text-white py-[5rem] bg-linear-to-t from-sky-500 to-indigo-500">
-//         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm">
-//           <div>
-//             <h3 className="font-bold text-lg mb-2">Intelligencia</h3>
-//             <p>Centre de formation en langues étrangères (Allemand, Italien et Anglais). Préparation aux examens et accompagnement pour l’immigration.</p>
-//           </div>
-//           <div>
-//             <h3 className="font-bold mb-2 text-2xl">Liens utiles</h3>
-//             <ul className="space-y-1">
-//               <li>Formations</li>
-//               <li>Procédures</li>
-//               <li>Contact</li>
-//               <li>Examens</li>
-//             </ul>
-//           </div>
-//           <div>
-//             <h3 className="font-bold mb-2 text-2xl">Nous contacter</h3>
-//             <p>Téléphone : +237 63585388</p>
-//             <p>Email :kamenifrank220@gmail.com</p>
-//             <p>Descente Sorcier : Yaoundé, Cameroun</p>
-//           </div>
-//         </div>
-//       </footer>
-//     );
-//   }
-
-
-
 
 // src/components/Footer.jsx
 

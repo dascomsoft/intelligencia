@@ -20,10 +20,10 @@ export default function ExamHero() {
         
         {/* Contenu */}
         <div className="relative z-10 text-center px-4 text-white max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-xl md:text-3xl font-bold mb-6">
             Préparation aux Examens Linguistiques
           </h1>
-          <p className="text-xl md:text-2xl mb-8">
+          <p className="mb-8">
             Maximisez vos chances de réussite avec nos programmes spécialisés
           </p>
           <a href='/Contact' className="bg-white text-blue-900 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300">

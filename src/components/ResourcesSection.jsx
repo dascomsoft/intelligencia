@@ -37,7 +37,7 @@ export default function ResourcesSection() {
     return (
       <section className="py-20 px-4 bg-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-800">
+          <h2 className="text-2xl md:text-4xl font-bold text-center mb-4 text-gray-800">
             Ressources Pédagogiques
           </h2>
           <p className="text-xl text-center mb-12 text-gray-600 max-w-3xl mx-auto">
@@ -47,7 +47,7 @@ export default function ResourcesSection() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {resources.map((resource, index) => (
               <div key={index} className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition duration-300">
-                <div className="text-5xl mb-4">{resource.icon}</div>
+                <div className="text-4xl mb-4">{resource.icon}</div>
                 <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full mb-2">
                   {resource.type}
                 </span>
@@ -61,7 +61,7 @@ export default function ResourcesSection() {
           <div className="mt-16 bg-gray-100 rounded-xl p-8 md:p-12">
             <div className="md:flex items-center">
               <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
-                <h3 className="text-2xl font-bold mb-4 text-gray-800">Ateliers Spéciaux</h3>
+                <h3 className="text-xl font-bold mb-4 text-gray-800">Ateliers Spéciaux</h3>
                 <p className="text-gray-600 mb-4">
                   Nos ateliers thématiques vous préparent spécifiquement aux différentes épreuves des examens.
                 </p>

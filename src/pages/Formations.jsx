@@ -33,7 +33,7 @@ export default function Formations() {
         }}
       >
         <div className="container mx-auto px-6">
-          <h1 className="text-4xl md:text-4xl font-bold mb-4">
+          <h1 className="text-xl md:text-3xl font-bold mb-4">
             Formez-vous dès aujourd’hui pour réussir à l’international
           </h1>
           <p className="text-lg md:text-xl max-w-2xl">
@@ -49,7 +49,7 @@ export default function Formations() {
       </section>
       <section className="pt-20 px-6 bg-white text-gray-800">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12" data-aos="fade-up">
+          <h2 className="text-xl md:text-3xl font-bold mb-12 max-w-3xl mx-auto" data-aos="fade-up">
             Boostez vos compétences avec les bonnes stratégies
           </h2>
 
@@ -58,7 +58,7 @@ export default function Formations() {
             <div className="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="100">
               <div className="flex items-center mb-4">
                 <span className="text-3xl mr-3">🎯</span>
-                <h3 className="text-xl font-semibold">Fixez vos objectifs linguistiques</h3>
+                <h3 className="text-lg font-semibold">Fixez vos objectifs linguistiques</h3>
               </div>
               <p className="text-gray-600">
                 Définir un but précis (examen, voyage, immigration) vous aide à rester motivé tout au long du parcours.
@@ -70,7 +70,7 @@ export default function Formations() {
             <div className="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="200">
               <div className="flex items-center mb-4">
                 <span className="text-3xl mr-3">🕒</span>
-                <h3 className="text-xl font-semibold">Optez pour un rythme adapté</h3>
+                <h3 className="text-lg font-semibold">Optez pour un rythme adapté</h3>
               </div>
               <p className="text-gray-600">
                 Cours du jour ou du soir, en semaine ou le week-end : trouvez la formule qui correspond à votre quotidien.
@@ -82,7 +82,7 @@ export default function Formations() {
             <div className="bg-gray-50 p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="fade-up" data-aos-delay="300">
               <div className="flex items-center mb-4">
                 <span className="text-3xl mr-3">📜</span>
-                <h3 className="text-xl font-semibold">Préparez les examens avec succès</h3>
+                <h3 className="text-lg font-semibold">Préparez les examens avec succès</h3>
               </div>
               <p className="text-gray-600">
                 Grâce à nos simulations, supports spécialisés et accompagnement intensif, vous maximisez vos chances de réussir
@@ -95,7 +95,7 @@ export default function Formations() {
       <section className="py-20 px-6 bg-gray-50 text-gray-800">
         <div className="max-w-7xl mx-auto">
           {/* Présentation des formations */}
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12" data-aos="fade-up">
+          <h2 className="text-xl md:text-2xl font-bold text-center mb-12" data-aos="fade-up">
             🎓 Nos Formations en Présentiel & en Ligne
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -103,7 +103,7 @@ export default function Formations() {
             <div className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="zoom-in-left" data-aos-delay="100">
               <div className="flex items-center mb-4">
                 <span className="text-4xl mr-3">🏫</span>
-                <h3 className="text-xl font-bold">Cours en Présentiel</h3>
+                <h3 className="text-lg font-bold">Cours en Présentiel</h3>
               </div>
               <p className="text-gray-700 mb-2">
                 Nos classes à effectif réduit vous garantissent un suivi personnalisé, une immersion linguistique efficace,
@@ -120,7 +120,7 @@ export default function Formations() {
             <div className="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition" data-aos="zoom-in-right" data-aos-delay="100">
               <div className="flex items-center mb-4">
                 <span className="text-4xl mr-3">💻</span>
-                <h3 className="text-xl font-bold">Cours en Ligne</h3>
+                <h3 className="text-lg font-bold">Cours en Ligne</h3>
               </div>
               <p className="text-gray-700 mb-2">
                 Apprenez depuis chez vous avec des cours interactifs, des supports numériques, et un accompagnement vidéo en temps réel.
@@ -135,7 +135,7 @@ export default function Formations() {
 
           {/* Section Témoignages */}
           <div className="mt-20 text-center">
-            <h3 className="text-2xl font-bold mb-8" data-aos="fade-up">🗣️ Ils ont suivi nos formations avec succès</h3>
+            <h3 className="text-xl font-bold mb-8" data-aos="fade-up">🗣️ Ils ont suivi nos formations avec succès</h3>
             <div className="grid md:grid-cols-3 gap-6 text-left" data-aos="fade-up" data-aos-delay="100">
               {/* Témoignage 1 */}
               <div className="bg-white p-6 rounded-xl shadow">
@@ -165,10 +165,10 @@ export default function Formations() {
         }}
       >
         <div className="container px-6 mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-green-400 mb-6">
+          <h2 className="text-xl md:text-3xl font-bold text-green-400 mb-6">
             📅 Planifiez votre consultation gratuite
           </h2>
-          <p className="text-lg md:text-xl mb-8 max-w-3xl">
+          <p className=" mb-8 max-w-3xl">
             Vous avez des questions sur nos programmes de formation ? Vous souhaitez être guidé pour réussir vos examens internationaux (TOEFL, IELTS, DELF, CELI, etc.) ?
             Prenez un rendez-vous personnalisé avec l’un de nos conseillers dès maintenant !
           </p>
