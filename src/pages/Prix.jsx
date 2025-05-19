@@ -1,11 +1,17 @@
 
 
-
+import { useEffect } from "react";
 import React from "react";
 import travel from '../assets/travel.jpg'
 
 
 const Prix = () => {
+
+    useEffect(() => {
+      // Faire défiler vers le haut au chargement de la page
+      window.scrollTo(0, 0);
+    }, []);
+
   const cours = [
     {
       langue: "Allemand",
