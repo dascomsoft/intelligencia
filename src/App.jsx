@@ -11,7 +11,8 @@ import Calendrier from "./pages/Calendrier";
 import Examens from "./pages/Examens";
 import Contact from "./pages/Contact";
 import IntelliBot from "./components/IntelliBot";
-
+import Prix
+ from "./pages/Prix";
 function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ function App() {
             <Route path="/formations" element={<Formations />} />
             <Route path="/immigration" element={<Immigration />} />
             <Route path="/annonces" element={<Annonces />} />
+            <Route path="/prix" element={<Prix />} />
             <Route path="/calendrier" element={<Calendrier />} />
             <Route path="/examens" element={<Examens />} />
             <Route path="/contact" element={<Contact />} />

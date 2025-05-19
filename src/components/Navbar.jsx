@@ -83,7 +83,7 @@ export default function Navbar() {
           <li><Link to="/formations">Formations</Link></li>
           <li><Link to="/immigration">Immigration</Link></li>
           <li><Link to="/annonces">Annonces</Link></li>
-          {/* <li><Link to="/calendrier">Calendrier</Link></li> */}
+          <li><Link to="/prix">Prix</Link></li>
           <li><Link to="/examens">Examens</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
@@ -95,7 +95,7 @@ export default function Navbar() {
             <li><Link to="/formations" onClick={() => setOpen(false)}>Formations</Link></li>
             <li><Link to="/immigration" onClick={() => setOpen(false)}>Immigration</Link></li>
             <li><Link to="/annonces" onClick={() => setOpen(false)}>Annonces</Link></li>
-            {/* <li><Link to="/calendrier" onClick={() => setOpen(false)}>Calendrier</Link></li> */}
+            <li><Link to="/prix" onClick={() => setOpen(false)}>Prix</Link></li>
             <li><Link to="/examens" onClick={() => setOpen(false)}>Examens</Link></li>
             <li><Link to="/contact" onClick={() => setOpen(false)}>Contact</Link></li>
           </ul>

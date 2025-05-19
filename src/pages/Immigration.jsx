@@ -116,11 +116,7 @@ export default function Immigration() {
 
 
       <section
-        className="relative bg-center bg-no-repeat bg-cover bg-fixed text-white py-20 px-6"
-        style={{
-          backgroundImage: `radial-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(${travel})`,
-        }}
-      >
+        className="relative bg-center bg-no-repeat bg-cover bg-fixed text-white py-20 px-6" style={{backgroundImage: `radial-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(${travel})`,}}>
         <div className="container px-6 mx-auto">
           <h2 className="text-xl md:text-3xl font-bold mb-6 text-green-400">📞 Parlez à un expert dès maintenant</h2>
           <p className="mb-8">

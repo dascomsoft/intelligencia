@@ -111,9 +111,9 @@ export default function Home() {
 
           </div>
         </div>
-        <section className="py-20 px-6 bg-slate-600 text-center" data-aos="fade-up">
+        <section className="py-20 px-6 bg-stone-500 text-center text-white">
           <h2 className="text-xl font-extrabold mb-6 ">Qui sommes-nous ?</h2>
-          <p className="max-w-4xl mx-auto text-lg text-black">
+          <p className="max-w-4xl mx-auto text-lg">
             Intelligencia est un centre de formation linguistique basé au Cameroun, spécialisé dans l’apprentissage de l’allemand et de l’italien.
             Nous préparons nos étudiants aux examens B1, B2 (Goethe, ÖSD, ECL...) et leur fournissons une assistance complète pour l’immigration vers l’Europe.
           </p>
