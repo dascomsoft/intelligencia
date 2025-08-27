@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
+      <div className="container mx-auto px-6 a-3 flex justify-between items-center">
         {/* <h1 className="text-xl font-bold text-blue-700">Intelligencia</h1> */}
         <a href='/'>
         <img src={logo} className='w-20 h-20 rounded-full' />

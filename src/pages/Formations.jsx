@@ -92,6 +92,9 @@ export default function Formations() {
           </div>
         </div>
       </section>
+
+
+
       <section className="py-20 px-6 bg-gray-50 text-gray-800">
         <div className="max-w-7xl mx-auto">
           {/* Présentation des formations */}
@@ -158,6 +161,11 @@ export default function Formations() {
           </div>
         </div>
       </section>
+
+
+
+
+      
       <section
         className="relative bg-center bg-no-repeat bg-cover bg-fixed text-white py-20 px-6 mb-0"
         style={{
